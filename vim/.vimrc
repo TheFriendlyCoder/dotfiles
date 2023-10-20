@@ -15,7 +15,8 @@ set whichwrap+=<,>,h,l,[,]
 
 " show tab characters as '>-' ... makes it easier to distinguish
 " spaces-as-tabas and actual tab characters
-set listchars=tab:>-
+" also give a symbol for the new-line character
+set listchars=eol:¬,tab:>-
 set list
 
 " turn on syntax highlighting
